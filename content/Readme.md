@@ -27,4 +27,4 @@ csharp Allah\'s_99names.cs
 The code is written in C# and consists of a single class `Program`. Here's a brief explanation of its structure:
 
 - The `print` method is responsible for printing a string character by character with a delay of 100 milliseconds between each character.
-- The `Main` method contains the main logic of the program. It initializes an array containing the 99 names of Allah along with their meanings. Then, it waits for the user to press the space bar and prints each name one by one until all names are printed.
+- The `Main` method contains the main logic of the program. It initializes an array containing the 99 names of Allah along with their meanings. Then, it waits for the user to press the space bar and prints each name one by one until all names are printed. That is end.
