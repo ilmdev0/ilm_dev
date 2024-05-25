@@ -2,20 +2,16 @@
 title: Hi there, I'm Sajib 🤝
 tags:
 ---
-[This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.](<Currently Learning...
+I'm an Internet of Things (IoT) student at the Savonia University of Applied Sciences, passionate about software, robotics, and AI.
 
-    Visual SLAM
+- Currently, I'm working on a robotics project at the [[University of Eastern Finland]]
+- I interned at Holobiont Oy during the summer of 2023
+- I interned at my university during the spring of 2023
+- I continuously engage in projects throughout the semester to enhance my problem-solving skills alongside my theoretical studies
 
-        through Cyrill Stachniss
-        Accelerated Computing for robotics through my work at NVIDIA (i..e. making code run FAST by leveraging Concurrency)
 
-Explore My Brain:
+## My Playing Devices
+I frequently work with devices such as the [NVIDIA Jetson Orin Nano](https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit),[ Raspberry Pi 3](https://www.raspberrypi.com/products/raspberry-pi-3-model-b/), [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/), and [[robots]].
 
-    You can use the search bar 🔍 to look for my thoughts on a particular topic (ex: “self-learning”)
-    My Maps of Content (MOCs) are vague outlines of my world
-    My school notes can be found Waterloo Software Engineering
-
-    Outside of trying to be a technical person, I occasionally think about humanity, see My Worldviews
-
-for a taste, or my blog>)
+![[Jetson_orin.jpeg]]
+*NVIDIA Jeton Orin Nano Developer Kit*
