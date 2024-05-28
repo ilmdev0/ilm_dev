@@ -1,6 +1,7 @@
 ---
-title: Hi there, I'm Sajib 🤝
-tags:
+title: Md. Sajib Pramanic
+tags: 
+"Hi there, I'm Sajib 🤝":
 ---
 I'm an Internet of Things (IoT) student at the [[Savonia University of Applied Sciences]], passionate about software, robotics, and AI.
 

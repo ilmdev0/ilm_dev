@@ -1,6 +1,6 @@
 ---
-title: '"Introduction"'
+title: Savonia University of Applied Sciences
 draft: false
-tags: []
+tags:
 ---
 This is intro
