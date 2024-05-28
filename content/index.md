@@ -1,8 +1,11 @@
 ---
 title: Md. Sajib Pramanic
 tags: 
-"Hi there, I'm Sajib 🤝":
+publish: true
 ---
+# Hi there, I'm Sajib 🤝
+
+
 I'm an Internet of Things (IoT) student at the [[Savonia University of Applied Sciences]], passionate about software, robotics, and AI.
 
 - Currently, I'm working on a robotics project at the [[University of Eastern Finland]]
@@ -14,5 +17,5 @@ I'm an Internet of Things (IoT) student at the [[Savonia University of Applied S
 ## My Playing Devices
 I frequently work with devices such as the [NVIDIA Jetson Orin Nano](https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit),[ Raspberry Pi 3](https://www.raspberrypi.com/products/raspberry-pi-3-model-b/), [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/), and [[robots]].
 
-![[Jetson_orin.jpeg#right|400]]
+![[Media/Jetson_orin.jpeg#right|400]]
                                       *NVIDIA Jeton Orin Nano Developer Kit*
