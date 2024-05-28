@@ -14,4 +14,4 @@ I'm an Internet of Things (IoT) student at the [[Savonia University of Applied S
 I frequently work with devices such as the [NVIDIA Jetson Orin Nano](https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit),[ Raspberry Pi 3](https://www.raspberrypi.com/products/raspberry-pi-3-model-b/), [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/), and [[robots]].
 
 ![[Jetson_orin.jpeg#right|400]]
-                            *NVIDIA Jeton Orin Nano Developer Kit*
+                                      *NVIDIA Jeton Orin Nano Developer Kit*
