@@ -1,7 +1,7 @@
 # Hi there, I'm Sajib 🤝
 
 
-I'm an Internet of Things (IoT) student at the [[Savonia University of Applied Sciences]], passionate about software, robotics, and AI.
+NEWI'm an Internet of Things (IoT) student at the [[Savonia University of Applied Sciences]], passionate about software, robotics, and AI.
 
 - Currently, I'm working on a robotics project at the [[University of Eastern Finland]]
 - I interned at [[Holobiont Oy]] during the summer of 2023
