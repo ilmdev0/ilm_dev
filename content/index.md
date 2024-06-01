@@ -1,8 +1,8 @@
 ---
 title: " "
-date: " "
+date: true
 tags: 
-publish: " "
+publish: true
 ---
 
 # Hi there, I'm Sajib 🤝
