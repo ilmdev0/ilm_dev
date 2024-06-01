@@ -1,6 +1,6 @@
 ---
-title: '"<% tp.file.title %>"'
-date: true
+title: 
+date: false
 tags: 
 publish: true
 ---
