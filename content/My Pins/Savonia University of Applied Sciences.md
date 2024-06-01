@@ -1,5 +1,5 @@
 ---
-title: "Savonia University of Applied Sciences"
+title: Savonia University of Applied Sciences
 draft: false
 tags: []
 ---
