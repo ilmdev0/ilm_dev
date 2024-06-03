@@ -1,10 +1,9 @@
 ---
 title: "University of Eastern Finland"
+date: true
 draft: false
 tags: []
+publish: true
 ---
-
-
-## workplace
 
 Here I am working as a software developer trainee.
