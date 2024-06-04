@@ -1,6 +1,6 @@
 ---
 title: "Md. Sajib Pramanic"
-date: true
+date: false
 tags: 
 publish: true
 draft: false

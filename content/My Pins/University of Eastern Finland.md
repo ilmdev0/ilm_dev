@@ -1,6 +1,6 @@
 ---
 title: "University of Eastern Finland"
-date: true
+date: false
 draft: false
 tags: []
 publish: true
