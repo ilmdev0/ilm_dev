@@ -22,4 +22,6 @@ publish: true
 
 Within the project, I implemented the Gazebo model of the HUMEA Lab and operated the virtual Autonomous Mobile robot, leveraging SLAM and Navigation stack, I enabled autonomous navigation, obstacle avoidance, and map generation.
 
+![[ceterio.png]]
+
 Moreover, the [[Ceterio C-100 Mobile Robot ]]offers Docker functionality, wherein each device runs in a separate container. This aspect was particularly intriguing to me as I'm well-versed in [Docker](https://www.docker.com/), both in [rootless](https://docs.docker.com/engine/security/rootless/) and [root mode](https://docs.docker.com/engine/install/) configurations.
