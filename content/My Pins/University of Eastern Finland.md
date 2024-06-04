@@ -7,6 +7,9 @@ publish: true
 ---
 
 ![[uef1.jpg]]
+                            *source:  uef.fi/*
+
+
 
 Since October 2023, I've been employed at the University of Eastern Finland as a Software Developer Trainee, focusing on the project ``Acquisition of mobile robots and 5G technology suitable for operating room environments``. My tenure lasted until December 31st, 2023. Throughout this period, I engaged with a variety of devices:
 
