@@ -11,7 +11,7 @@ publish: true
 
 
 
-Since October 2023, I've been employed at the University of Eastern Finland as a Software Developer Trainee, focusing on the project ``Acquisition of mobile robots and 5G technology suitable for operating room environments``. My tenure lasted until December 31st, 2023. Throughout this period, I engaged with a variety of devices:
+Since October 2023, I've been employed at the [[University of Eastern Finland]] as a Software Developer Trainee, focusing on the project [Acquisition of mobile robots and 5G technology suitable for operating room environments](https://uefconnect.uef.fi/tutkimusryhma/leikkaussaliymparistoon-soveltuvien-mobiilirobottien-ja-5g-teknologian-hankinta/) at [HUMEA Lab](https://sites.uef.fi/humea/humea-laboratory/). My tenure lasted until December 31st, 2023. Throughout this period, I engaged with a variety of devices:
 
 1. [[Ceterio C-100 Mobile Robot]]
 2. [[Ouster LiDAR model OS0]]
