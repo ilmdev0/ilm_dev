@@ -6,7 +6,7 @@ tags: []
 publish: true
 ---
 
-![[Savonia.png#center|200]] I took the entrance exams for five different universities in early 2021:
+![[Savonia.png|#center|400]] I took the entrance exams for five different universities in early 2021:
 
 1. Tampere University of Applied Sciences (TAMK)
 2. Jyväskylä University of Applied Sciences
@@ -14,7 +14,7 @@ publish: true
 4. South-Eastern Finland University of Applied Sciences
 5. Karelia University of Applied Sciences
 
-I chose to attend [[Savonia University of Applied Sciences]] (Microkatu, Kuopio Campus) for a Bachelor of Engineering in Information Technology, specializing in the Internet of Things (IoT). I deferred my enrolment for one year and began my semester in July 2022.
+I decided to accept [[Savonia University of Applied Sciences]] (Microkatu, Kuopio Campus) for a Bachelor of Engineering in Information Technology, specializing in the Internet of Things (IoT). I deferred my enrolment for one year and began my semester in July 2022.
 
 Some key courses I have completed so far include:
 
