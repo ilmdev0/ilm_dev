@@ -7,7 +7,7 @@ publish: true
 ---
 
 ![[uef1.jpg]]
-                            *source:  uef.fi/*
+                            *source:  www.uef.fi/*
 
 
 
