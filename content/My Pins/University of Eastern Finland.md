@@ -22,4 +22,4 @@ Since October 2023, I've been employed at the [[University of Eastern Finland]] 
 
 Within the project, I implemented the Gazebo model of the HUMEA Lab and operated the virtual Autonomous Mobile robot, leveraging SLAM and Navigation stack, I enabled autonomous navigation, obstacle avoidance, and map generation.
 
-Moreover, the [[Ceterio C-100 Mobile Robot ]]offers Docker functionality, wherein each device runs in a separate container. This aspect was particularly intriguing to me as I'm well-versed in Docker, both in rootless and root mode configurations.
+Moreover, the [[Ceterio C-100 Mobile Robot ]]offers Docker functionality, wherein each device runs in a separate container. This aspect was particularly intriguing to me as I'm well-versed in [Docker](https://www.docker.com/), both in [rootless](https://docs.docker.com/engine/security/rootless/) and [root mode](https://docs.docker.com/engine/install/) configurations.
