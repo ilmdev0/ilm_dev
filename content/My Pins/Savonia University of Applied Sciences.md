@@ -6,5 +6,4 @@ tags: []
 publish: true
 ---
 
-![[Savonia.png#center|300]]
-I sit for entrance exam in earlier 2020. 
+![[Savonia.png#center|200]] I sit for entrance exam in earlier 2020. 
