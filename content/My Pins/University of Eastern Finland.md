@@ -7,7 +7,7 @@ publish: true
 ---
 
 ![[uef1.jpg]]
-                            *source:  www.uef.fi/*
+                            *source:  [www.uef.fi/](https://www.uef.fi/en/article/uef-secures-significant-development-funding)*
 
 
 
