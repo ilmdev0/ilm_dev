@@ -1,10 +1,10 @@
 ---
 title: "Savonia University of Applied Sciences"
+date: false
 draft: false
 tags: []
+publish: true
 ---
 
 
-## Savonia University of Applied Sciences
-
-I sit for entrance exam in earlier 2020. After a few month.
+I sit for entrance exam in earlier 2020. 
