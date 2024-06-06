@@ -6,7 +6,7 @@ tags: []
 publish: true
 ---
 
-![[Savonia.png|right]] I took the entrance exams for five different universities in early 2021:
+I took the entrance exams for five different universities in early 2021:
 
 1. Tampere University of Applied Sciences (TAMK)
 2. Jyväskylä University of Applied Sciences
