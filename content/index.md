@@ -40,7 +40,7 @@ Even if I fail by the end of the day, I remain determined. The following day, I 
 Once upon a time, I wondered why everything couldn't be solved quickly and why projects couldn't be completed in a short amount of time. However, I have since realized that every successful project takes time, and solving problems requires thorough study and patience.
 
 
-### My Little Brain 
+### My Little Brain 🙆🏼‍♂️
 I began using [[Obsidian]] in May 2024, and it has been an incredible platform for note-taking and sharing with others. I plan to share my problem-solving notes, open-source code, and project information from my little brain world, offering insights from my unique perspective. ![[graph1.png]]
 
 > [!NOTE] Testimonials from my Instructor & colleagues
