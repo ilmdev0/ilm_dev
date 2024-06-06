@@ -24,7 +24,5 @@ I frequently work with my ``personal kits/devices`` such as the [[NVIDIA Jetson 
 ![[raspberrypi.jpeg|665]]
 *<center>NVIDIA Jeton Orin Nano Developer Kit, Galaxy RVR, Raspberry Pi 3 B, 4 B, 5.</center>*
 
->[!done]I have Done
-> I have one project call auto matic chair
-
->[!]
+>[!done]My most recent project
+> - [ ] I have one project call auto matic chair
