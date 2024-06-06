@@ -39,4 +39,6 @@ I frequently work with my ``personal kits/devices`` such as the [[NVIDIA Jetson 
 > [Paavo Vartiainen](https://www.linkedin.com/in/paavovartiainen/)
 > I instructed Sajib in the robotics commissioning and coding tasks at UEF Department of Technical Physics, HUMEA Lab, at late 2023. These tasks were new and challenging for our team, thus, Sajib worked and solved several important coding independently. Sajib integrated cameras and sensors to ROS middleware and created simulations in RViz and Gabezo applications.. Especially, he worked diligently right to the end of this short-term job.
 
->
+> [Matti Kortelainen](https://www.linkedin.com/in/matti-j-kortelainen?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bg6v3C5GETlml6el5oE3SrQ%3D%3D)
+> I worked with Sajib for a couple of months at the end of 2023 in a project in which we deployed a mobile robot for hospital environments (C-100; Ceterio Ltd, Finland). I mostly played a mentoring role, advising the team towards feasible solutions.  
+  There was a rather steep learning curve, to start programming Robot Operating System (ROS) applications from scratch, but Sajib learned ROS concepts rapidly, gained know-how on central Robotics software like Gazebo and Rviz, solved network management issues, and displayed some computer-aided design skills by editing the digital model of the deployed mobile robot. Sajib also demonstrated commendable work ethics by working late into evenings at the lab after first studying the days at Savonia UAS.
