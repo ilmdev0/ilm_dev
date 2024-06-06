@@ -27,5 +27,4 @@ Some key courses I have completed so far include:
 - Data Structures and Algorithms | Java
 
 I am expect to complete my degree by the end of 2025, provide I finish my thesis within this time frame.
-
-![[Savonia.png|right]]
+![[savoniaa.png|right|500]]
