@@ -22,4 +22,4 @@ I frequently work with devices such as the [NVIDIA Jetson Orin Nano](https://dev
 
 ![[Media/Jetson_orin.jpeg|330]] ![[galaxyrvr.jpeg|330]]
 ![[raspberrypi.jpeg|665]]
-<center>*NVIDIA Jeton Orin Nano Developer Kit, Galaxy RVR, Raspberry Pi 3 B, 4, 5.* </center>
+*<center>NVIDIA Jeton Orin Nano Developer Kit, Galaxy RVR, Raspberry Pi 3 B, 4, 5.</center>*
