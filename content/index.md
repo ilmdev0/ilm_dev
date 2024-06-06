@@ -25,4 +25,7 @@ I frequently work with my ``personal kits/devices`` such as the [[NVIDIA Jetson 
 *<center>NVIDIA Jeton Orin Nano Developer Kit, Galaxy RVR, Raspberry Pi 3 B, 4 B, 5.</center>*
 
 >[!done]My most recent project
-> - [ ] I have one project call auto matic chair
+> - [[Data base design for Football league]]
+> - [[Self Balancing Table]]
+> - [[Portfolio website design]]
+> - [[Point of Sale software design with database]]
