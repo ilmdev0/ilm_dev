@@ -41,7 +41,7 @@ Once upon a time, I wondered why everything couldn't be solved quickly and why p
 
 
 ### My Little Brain 🙆🏼‍♂️
-I began using [[Obsidian]] in May 2024, and it has been an incredible platform for note-taking and sharing with others. I plan to share my problem-solving notes, open-source code, and project information from my little brain world, offering insights from my unique perspective. ![[graph1.png]]
+I began using [[Obsidian]] in May 2024, and it has been an incredible platform for note-taking and sharing with others. I plan to share my problem-solving notes, open-source code, and project information from my little brain world, offering insights from my unique perspective. ![[graph1.png|500x500]]
 
 > [!NOTE] Testimonials from my Instructor & colleagues
 > [Paavo Vartiainen](https://www.linkedin.com/in/paavovartiainen/):
