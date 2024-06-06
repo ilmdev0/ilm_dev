@@ -24,8 +24,19 @@ I frequently work with my ``personal kits/devices`` such as the [[NVIDIA Jetson 
 ![[raspberrypi.jpeg|665]]
 *<center>NVIDIA Jeton Orin Nano Developer Kit, Galaxy RVR, Raspberry Pi 3 B, 4 B, 5.</center>*
 
+
+
 >[!done]My most recent project
 > - [[Data base design for Football league]]
 > - [[Self Balancing Table]]
 > - [[Portfolio website design]]
 > - [[Point of Sale software design with database]]
+
+
+
+
+> [!NOTE] Testimonials from my colleague & Instructor
+> [Paavo Vartiainen](https://www.linkedin.com/in/paavovartiainen/)
+> I instructed Sajib in the robotics commissioning and coding tasks at UEF Department of Technical Physics, HUMEA Lab, at late 2023. These tasks were new and challenging for our team, thus, Sajib worked and solved several important coding independently. Sajib integrated cameras and sensors to ROS middleware and created simulations in RViz and Gabezo applications.. Especially, he worked diligently right to the end of this short-term job.
+
+>
