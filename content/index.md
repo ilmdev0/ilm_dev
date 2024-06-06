@@ -33,7 +33,7 @@ I frequently work with my ``kit/devices`` such as the [[NVIDIA Jetson Orin Nano]
 > - [[Point of Sale software design with database]]
 
 
-### > [!NOTE]A note a from from myself
+> ###[!NOTE]A note a from from myself
 
 I always try to learn the key points of the subjects I study. I take some time to understand the topics before proceeding further. At the end of each workday, I often encounter coding errors, and I come home feeling tired. The next morning, I see it as another chance to solve the problem again. Even if I fail by the end of the day, I remain determined. The following day, I commit once more, believing that today will be the day I solve the problem, and eventually, I succeed.
 
