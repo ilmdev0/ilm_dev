@@ -28,4 +28,4 @@ Some key courses I have completed so far include:
 
 I am expect to complete my degree by the end of 2025, provide I finish my thesis within this time frame.
 
-![[Savonia.png|center]]
+![[Savonia.png|right]]
