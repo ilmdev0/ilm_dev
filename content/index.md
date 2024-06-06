@@ -18,7 +18,7 @@ I'm an Internet of Things (IoT) student at the [[Savonia University of Applied S
 
 
 ## My Playing Devices 📛
-I frequently work with my ``personal kits/devices`` such as the [[NVIDIA Jetson Orin Nano]], [[ Raspberry Pi 3 B]], [[Raspberry Pi 4 B]], [[Raspberry Pi 5]], and [[Galaxy RVR Robot]].
+I frequently work with my ``kit/devices`` such as the [[NVIDIA Jetson Orin Nano]], [[ Raspberry Pi 3 B]], [[Raspberry Pi 4 B]], [[Raspberry Pi 5]], and [[Galaxy RVR Robot]].
 
 ![[Media/Jetson_orin.jpeg|330]] ![[galaxyrvr.jpeg|330]]
 ![[raspberrypi.jpeg|665]]
@@ -33,6 +33,11 @@ I frequently work with my ``personal kits/devices`` such as the [[NVIDIA Jetson 
 > - [[Point of Sale software design with database]]
 
 
+### A note a from from myself
+
+I always try to learn the key points of the subjects I study. I take some time to understand the topics before proceeding further. At the end of each workday, I often encounter coding errors, and I come home feeling tired. The next morning, I see it as another chance to solve the problem again. Even if I fail by the end of the day, I remain determined. The following day, I commit once more, believing that today will be the day I solve the problem, and eventually, I succeed.
+
+Once upon a time, I wondered why everything couldn't be solved quickly and why projects couldn't be completed in a short amount of time. However, I have since realized that every successful project takes time, and solving problems requires thorough study and patience.
 
 
 > [!NOTE] Testimonials from my Instructor & colleagues
