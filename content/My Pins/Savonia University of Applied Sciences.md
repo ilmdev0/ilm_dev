@@ -26,5 +26,5 @@ Some key courses I have completed so far include:
 - Sensor Basics
 - Data Structures and Algorithms | Java
 
-I am expect to complete my degree by the end of 2025, provide I finish my thesis within this time frame.
+I am expect to complete my degree by the end of <font color="#00b050">2025,</font> provide I finish my thesis within this time frame.
 ![[savoniaa.png]]
