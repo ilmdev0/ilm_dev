@@ -9,7 +9,7 @@ draft: false
 # Hi there, I'm Sajib 🤝
 
 
-I'm an Internet of Things (IoT) student at the [[Savonia University of Applied Sciences]], passionate about software, robotics, and AI.
+I'm an Internet of Things (IoT) student at the [[Savonia University of Applied Sciences]], passionate about [[software]], [[robotics]], and [[AI]].
 
 - Currently, I'm working on a robotics project at the [[University of Eastern Finland]]
 - I interned at [[Holobiont Oy]] during the summer of 2023
@@ -22,4 +22,5 @@ I frequently work with devices such as the [[NVIDIA Jetson Orin Nano]], [[ Raspb
 
 ![[Media/Jetson_orin.jpeg|330]] ![[galaxyrvr.jpeg|330]]
 ![[raspberrypi.jpeg|665]]
-*<center>NVIDIA Jeton Orin Nano Developer Kit, Galaxy RVR, Raspberry Pi 3 B, 4, 5.</center>*
+*<center>NVIDIA Jeton Orin Nano Developer Kit, Galaxy RVR, Raspberry Pi 3 B, 4 B, 5.</center>*
+
