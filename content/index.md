@@ -33,14 +33,14 @@ I frequently work with my ``kit/devices`` such as the [[NVIDIA Jetson Orin Nano]
 > - [[Point of Sale software design with database]]
 
 
-### A note a from from myself 📒
+### A note a from from myself   📒
 
 I always try to learn the key points of the subjects I study. I take some time to understand the topics before proceeding further. At the end of each workday, I often encounter coding errors, and I come home feeling tired. The next morning, I see it as another chance to solve the problem again. ![[myself.jpeg|inlR|300]]*I was speaking on course final presentation at [Savonia UAS](https://www.savonia.fi/en/homepage/)* 
 Even if I fail by the end of the day, I remain determined. The following day, I commit once more, believing that today will be the day I solve the problem, and eventually, I succeed.
 Once upon a time, I wondered why everything couldn't be solved quickly and why projects couldn't be completed in a short amount of time. However, I have since realized that every successful project takes time, and solving problems requires thorough study and patience.
 
 
-### My Little World 🌎
+### My Little World   🌎
 I began using [[Obsidian]] in May 2024, and it has been an incredible platform for note-taking and sharing with others. I plan to share my problem-solving notes, open-source code, and project information from my little world, offering insights from my unique perspective. ![[graph1.png]]
 
 > [!NOTE] Testimonials from my Instructor & colleagues
