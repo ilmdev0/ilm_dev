@@ -1,6 +1,6 @@
 ---
 title: "Data base design for Football league"
-date: true
+date: false
 draft: false
 tags: [project]
 publish: true
