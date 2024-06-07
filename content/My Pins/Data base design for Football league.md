@@ -361,19 +361,16 @@ LIMIT 5;
 1. Drop Trigger
 ```sql
 DROP TRIGGER <Trigger name>;
-
 ```
 
 2. Drop Table
 ```sql
 DROP TABLE <Table Name>;
-
 ```
 
 3. Check Table Data
 ```sql
 SELECT * FROM <Table Name>;
-
 ```
 4. Insert Data into a Table
 ```sql
