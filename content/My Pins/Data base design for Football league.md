@@ -9,7 +9,7 @@ publish: true
 
 # MySQL Database design for Football League 
 
-#### Objective: 
+>[!done]Objective
 Design and implement a database that captures details about football matches, including teams, players, matches, and goals. Use triggers to ``automatically update`` match results and team standings after each match.
 
 **Software Used**
