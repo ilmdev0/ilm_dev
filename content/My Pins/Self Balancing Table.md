@@ -38,6 +38,8 @@ Our solution addresses these challenges by introducing a self-balancing table th
 
 # VIDEO  
 
+![[Stable_Simulation.mp4]]
+
 https://amksavonia-my.sharepoint.com/:v:/g/personal/md_sajib_pramanic_edu_savonia_fi/EU7R_d-bmGZIj79L25YZF8MBw07vUwrip7E_vqRFEz2pSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6LyNJp
 
 # Linkedin  
