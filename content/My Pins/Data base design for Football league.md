@@ -396,4 +396,4 @@ WHERE condition;
 
 
 > [!NOTE] Note
->This database was designed and implemented as part of a project for a course, and successfully tested without errors. Special thanks to the course lecturer for his guidance and support. I received 5 points out of 5.<br> **If you get any error feel free to send an email to me, or create a issue [here](https://github.com/SAJIB3489/FootballLeague_database).**
+>This database was designed and implemented as part of a project for a course, and successfully tested without errors. Special thanks to the course lecturer for his guidance and support. I received 5 points out of 5.<br> **If you get any error feel free to send an email to me, or create a issue on [github](https://github.com/SAJIB3489/FootballLeague_database).**
