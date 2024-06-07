@@ -33,10 +33,10 @@ publish: true
 ![[Image3.png]]
 ![[Image4.png]]
 
-##### Final Output
+> ##### Final Output
 ![[Image5.jpg]]
 
-#### Code for servo motor
+> #### Code for servo motor
 `Servo_Motor.ino`
 
 ```
@@ -77,7 +77,7 @@ void loop() {
 }
 ```
 
-#### Code for accelerometer sensor
+> #### Code for accelerometer sensor
 `Accelerometer_sensor.ino`
 
 ```
