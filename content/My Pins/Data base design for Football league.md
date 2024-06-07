@@ -50,7 +50,7 @@ This project gives a excellent idea to design a database for the teams. This kno
 - [Acknowledgements](#acknowledgements)
 
 
-> [!tip] ##Database Schema Design
+> [!tip]##Database Schema Design
 
 ### Teams
 
