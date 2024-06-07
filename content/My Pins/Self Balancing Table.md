@@ -128,5 +128,4 @@ void loop() {
 ```
 
 > [!note] Note
-> To run the code on Arduino IDE, you will need to install the library `Adafruit_Sensor` , `Servo-1.2.1` and `SparkFun_ADXL345_Arduino_Library`. You will final the full repository on my [github](https://github.com/SAJIB3489/Balancing_Table.git) and also simulation [video](https://amksavonia-my.sharepoint.com/:v:/g/personal/md_sajib_pramanic_edu_savonia_fi/EU7R_d-bmGZIj79L25YZF8MBw07vUwrip7E_vqRFEz2pSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6LyNJp)
-
+> To run the code on Arduino IDE, you will need to install the library `Adafruit_Sensor` , `Servo-1.2.1` and `SparkFun_ADXL345_Arduino_Library`. You will final the full repository on my [github](https://github.com/SAJIB3489/Balancing_Table.git) and also simulation [video](https://amksavonia-my.sharepoint.com/:v:/g/personal/md_sajib_pramanic_edu_savonia_fi/EU7R_d-bmGZIj79L25YZF8MBw07vUwrip7E_vqRFEz2pSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6LyNJp) . I would like to extend my gratitude to my team members Sören Jost,  Remon Chowdhurry, Farouk Akilu, and my friend Karri Anttila.
