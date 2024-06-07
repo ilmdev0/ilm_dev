@@ -50,7 +50,7 @@ This project gives a excellent idea to design a database for the teams. This kno
 - [Acknowledgements](#acknowledgements)
 
 
-## Database Schema Design
+> ## Database Schema Design
 
 ### Teams
 
@@ -140,7 +140,7 @@ CREATE TABLE Results (
 ![[Results.png]]
 
 
-## Triggers
+> ## Triggers
 
 ![[Trigger.png]]
 
@@ -304,7 +304,7 @@ VALUES
 ```
 
 
-## Views
+> ## Views
 
 ### Last 5 Matches
 
@@ -354,7 +354,7 @@ LIMIT 5;
 
 
 
-## Extra Commands
+> ## Extra Commands
 
 **Some helpful command note that I used during the project**
 
