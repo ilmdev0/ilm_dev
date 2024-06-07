@@ -29,4 +29,4 @@ Welcome to my personal portfolio website! This website showcases my projects, sk
 
 
 > [!note] Note
-> Before started using **Quartz**, I used it to showcase my profile. I hot the design idea from [Avinash Kr](https://linktr.ee/iamavinashkr), Thanks to him.
+> Before started using **Quartz**, I used it to showcase my profile. I got the design idea from [Avinash Kr](https://linktr.ee/iamavinashkr), Thanks to him.
