@@ -146,4 +146,4 @@ You can watch the full video from [here](https://vlefactory.eu/wp-content/upload
 
 
 > [!note] Note
-> You can visit the VLEFACTORY website where my work has been published. You can also check out my Internship 2B, where I worked with Smart Factory. Thank you.
+> You can visit the [VLEFACTORY website](https://vlefactory.eu/mu1-siemens-mindsphere-water-process-data-analysis) where my work has been published. You can also check out my [[Internship 2B]], where I worked with Smart Factory. Thank you.
