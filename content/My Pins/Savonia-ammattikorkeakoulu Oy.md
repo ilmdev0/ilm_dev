@@ -145,5 +145,6 @@ In conclusion, the successful implementation of the mindsphere water level proce
 You can watch the full video from [here](https://vlefactory.eu/wp-content/uploads/2023/07/Water-process__MindSphere-and-EXCEL-PID.mp4) . <font color="#c0504d">Note: </font>Please be advised that if you encounter difficulties viewing the video, we recommend utilizing the Google Chrome web browser.
 
 
+
 > [!note] Note
 > You can visit the [VLEFACTORY website](https://vlefactory.eu/mu1-siemens-mindsphere-water-process-data-analysis) where my work has been published. You can also check out my [[Internship 2B]], where I worked with Smart Factory. Thank you.
