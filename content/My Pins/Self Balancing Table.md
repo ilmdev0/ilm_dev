@@ -2,7 +2,7 @@
 title: "Self Balancing Table"
 date: false
 draft: false
-tags: [project]
+tags: [projects]
 publish: true
 ---
 

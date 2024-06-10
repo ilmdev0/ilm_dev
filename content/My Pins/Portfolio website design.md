@@ -2,7 +2,7 @@
 title: "Portfolio website design"
 date: false
 draft: false
-tags: [project]
+tags: [projects]
 publish: true
 ---
 
