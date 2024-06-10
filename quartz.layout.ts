@@ -26,7 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.RecentNotes({ limit: 5 })), // (Component.Explorer())
+    //Component.DesktopOnly(Component.RecentNotes({ limit: 5 })), // (Component.Explorer())
     Component.RecentNotes({ linkToMore: "tags/components" })
     // Customization for Recent Notes
     // Component.RecentNotes({ limit: 5 })
