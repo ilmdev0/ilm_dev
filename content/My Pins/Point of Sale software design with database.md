@@ -9,7 +9,7 @@ publish: true
 # Point of Sale (POS) System
 
   
->[!ddone] Overview of the project
+>[!done] Overview of the project
 >This repository contains a Point of Sale (POS) system developed in C# using .NET framework. The system includes various features such as sales tracking, product management, supplier and customer management, and sales reporting.
 
   
