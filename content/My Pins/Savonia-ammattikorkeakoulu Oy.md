@@ -146,4 +146,4 @@ You can watch the full video from [here](https://vlefactory.eu/wp-content/upload
 
 
 > [!note] Note
-> You can check my [[Internship 2B]].
+> You can visit the VLEFACTORY website where my work has been published. You can also check out my Internship 2B, where I worked with Smart Factory. Thank you.
