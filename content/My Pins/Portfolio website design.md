@@ -13,7 +13,7 @@ Welcome to my personal portfolio website! This website showcases my projects, sk
 >[!done] Live Demo
 > Check out the live demo of my portfolio [here](https://sajib3489.github.io/my-portfolio-website/). You can download the full repository from my [github](https://github.com/SAJIB3489/my-portfolio-website.git)
 
-Check the [Live demo here](https://github.com/SAJIB3489/my-portfolio-website/blob/main/images/live_demo.gif)
+Check the [GIF Live demo here](https://github.com/SAJIB3489/my-portfolio-website/blob/main/images/live_demo.gif)
 
 ## Features
 
