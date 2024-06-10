@@ -142,7 +142,7 @@ In conclusion, the successful implementation of the mindsphere water level proce
 
 ## Video Demonstration
 
-You can watch the full video from [here](https://vlefactory.eu/wp-content/uploads/2023/07/Water-process__MindSphere-and-EXCEL-PID.mp4) . Note: Please be advised that if you encounter difficulties viewing the video, we recommend utilizing the Google Chrome web browser.
+You can watch the full video from [here](https://vlefactory.eu/wp-content/uploads/2023/07/Water-process__MindSphere-and-EXCEL-PID.mp4) . <font color="#c0504d">Note: </font>Please be advised that if you encounter difficulties viewing the video, we recommend utilizing the Google Chrome web browser.
 
 
 > [!note] Note
