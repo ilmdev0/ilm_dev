@@ -7,7 +7,7 @@ publish: true
 ---
 
 # Personal Portfolio Website
-
+![[website.png]]
 Welcome to my personal portfolio website! This website showcases my projects, skills, and experience. It is designed to be modern, professional, and visually appealing. **You can use the code adding reference**.
 
 >[!done] Live Demo
