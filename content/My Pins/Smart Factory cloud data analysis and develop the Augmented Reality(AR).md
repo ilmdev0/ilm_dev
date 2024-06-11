@@ -9,7 +9,7 @@ publish: true
 > [!done] Internship 2B
 > I completed my second internship, [[Internship]] 2B, at [[Savonia University of Applied Sciences]], officially known as [[Savonia-ammattikorkeakoulu Oy]].
 
-I started working in April 2023 until June 2023, focus of my internship was on `Smart Factory cloud data analysis and develop the Augmented Reality(AR)`. My supervisor was [Arto Toppinen](https://www.linkedin.com/in/arto-toppinen-88574a10/?originalSubdomain=fi), and the internship fell under a project named **Virtual Learning Environment Smart Factory [(VLEFACTORY)](https://vlefactory.eu/smart-factory-data-analysis-develop-the-ar)**. I worked with the **Savonia Smart Factory** at [[Savonia-ammattikorkeakoulu Oy]]. 
+I started working in April 2023 until June 2023, focus of my internship was on `Smart Factory cloud data analysis and d[](Siemens%20Mindsphere%20water%20process%20cloud%20data%20analysis%20and%20digital%20twin%20development.md). My supervisor was [Arto Toppinen](https://www.linkedin.com/in/arto-toppinen-88574a10/?originalSubdomain=fi), and the internship fell under a project named **Virtual Learning Environment Smart Factory [(VLEFACTORY)](https://vlefactory.eu/smart-factory-data-analysis-develop-the-ar)**. I worked with the **Savonia Smart Factory** at [[Siemens Mindsphere water process cloud data analysis and digital twin development]]. 
 
 Here is a brief overview of what I implemented during my internship.
 

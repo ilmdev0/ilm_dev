@@ -9,7 +9,7 @@ publish: true
 > [!done] Internship 2A
 > I completed my second internship, both [[Internship]] 2A and [[Internship]] 2B, at [[Savonia University of Applied Sciences]], officially known as [[Savonia-ammattikorkeakoulu Oy]].
 
-I started working in January 2023 until March 2023, focus of my internship was on `Siemens Mindsphere water process cloud data analysis and digital twin development`. My supervisor was [Arto Toppinen](https://www.linkedin.com/in/arto-toppinen-88574a10/?originalSubdomain=fi), and the internship fell under a project named **Virtual Learning Environment Smart Factory [(VLEFACTORY)](https://vlefactory.eu/mu1-siemens-mindsphere-water-process-data-analysis)**. I spent three months working with the **Water Process Lab** at [[Savonia-ammattikorkeakoulu Oy]]. In March, I presented the final results of the project in **Germany** at [Carl-Benz-Schule Gaggenau](https://www.carl-benz-schule-gaggenau.de/).
+I started working in January 2023 until March 31, focus of my internship was on `Siemens Mindsphere water process cloud data analysis and digital twin development`. My supervisor was [Arto Toppinen](https://www.linkedin.com/in/arto-toppinen-88574a10/?originalSubdomain=fi), and the internship fell under a project named **Virtual Learning Environment Smart Factory [(VLEFACTORY)](https://vlefactory.eu/mu1-siemens-mindsphere-water-process-data-analysis)**. I spent three months working with the **Water Process Lab** at [[Savonia-ammattikorkeakoulu Oy]]. In March, I presented the final results of the project in **Germany** at [Carl-Benz-Schule Gaggenau](https://www.carl-benz-schule-gaggenau.de/).
 
 Here is a brief overview of what I implemented during my internship.
 
