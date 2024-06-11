@@ -27,7 +27,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     //Component.DesktopOnly(Component.RecentNotes({ limit: 5 })), // (Component.Explorer())
-    Component.RecentNotes({ linkToMore: "/My-Pins/" })
+    Component.DesktopOnly(Component.RecentNotes({ linkToMore: "/My-Pins/" }))
     // Customization for Recent Notes
     // Component.RecentNotes({ limit: 5 })
   ],
