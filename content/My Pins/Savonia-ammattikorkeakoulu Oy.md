@@ -13,8 +13,8 @@ During my time there, I learned a great deal about the Savonia Water Process Mac
 
 Here are the two topics I worked on:
 
-1. Water Process Machine: [[Siemens Mindsphere water process cloud data analysis and digital twin development]].
-2. Smart Factory: [[Smart Factory cloud data analysis and develop the Augmented Reality(AR)]].
+1. **Water Process Machine:** [[Siemens Mindsphere water process cloud data analysis and digital twin development]].
+2. **Smart Factory:** [[Smart Factory cloud data analysis and develop the Augmented Reality(AR)]].
 
 
 
