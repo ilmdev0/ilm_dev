@@ -17,11 +17,11 @@ Here is a brief overview of what I implemented during my internship.
 
   
 
-- [Introduction to Water Level Process](#introduction-to-water-level-process)
+- [Introduction](#introduction)
 
-- [PID](#pid)
+- [DISTRIBUTED MANUFACTURING](#distributed-manufacturing)
 
-- [MindSphere Server](#mindsphere-server)
+- [Augmented reality (AR)](#augmented-reality-ar)
 
 - [Result](#result)
 
@@ -29,122 +29,190 @@ Here is a brief overview of what I implemented during my internship.
 
 - [Video Demonstration](#video-demonstration)
 
-## Introduction to Water Level Process
+## Introduction
 
 
-The Water Level Process machine plays a crucial role in numerous industrial and infrastructure systems where the monitoring and control of water levels are vital. It is an essential component in various applications such as water treatment plants, reservoirs, irrigation systems, and flood control mechanisms. The accurate measurement and control of water levels are critical for ensuring optimal operation, preventing overflows or shortages, and maintaining overall system stability.
+In recent years, the convergence of advanced technologies and the manufacturing industry has paved the way for the concept of the Smart Factory, revolutionizing traditional manufacturing processes. The Smart Factory integrates Internet of Things (IoT) devices, data analytics, and automation to create an interconnected and intelligent manufacturing environment. By leveraging real-time data and analytics, Smart Factories aim to improve operational efficiency, optimize re-source allocation, and enhance decision-making processes.
 
-The Water Level Process machine operates by continuously monitoring the water level in a designated area or container and employing control mechanisms to regulate and maintain the desired water level. This process involves the integration of sensors, actuators, and control systems to achieve precise and automated control of water levels. Figure 1 shows water process machine.
+This project focuses on the implementation and analysis of cloud data analysis techniques within a Smart Factory environment. The data obtained from the Smart Factory is seamlessly transmitted and stored on the MindSphere server, a leading cloud-based platform for industrial IoT. By harnessing the power of cloud computing, the collected data is processed, analyzed, and transformed into actionable insights.
 
-![[waterprocess.jpg]]
- *WATER PROCESS (Md. Sajib Pramanic 2023)*
+One of the key objectives of this project was to develop an Augmented Reality (AR) system specifically tailored for the Savonia University of Applied Sciences Smart Factory. Augmented Reality technology overlays virtual information onto the real-world environment, providing an interactive and immersive experience. By integrating AR within the Smart Factory, operators gain access to a virtual overlay of information, enabling improved visualization, monitoring, and decision-making capabilities.
 
-In recent years, advancements in automation and data analysis have revolutionised the capabilities of Water Level Process machines. Integration with cloud-based platforms, such as MindSphere, has enabled the collection, storage, and analysis of water level data in real-time. This integration opens up opportunities for data-driven decision-making, predictive maintenance, and optimisation of water level processes. Cloud-based platforms provide enhanced accessibility, scalability, and analytical capabilities, empowering users to gain deeper insights into the system’s behaviour and performance.
+The scope of this project extends beyond the development of the AR system. It also encompasses the analysis of the condition of the factory’s equipment and the overall operational performance. By analyzing the collected data, it becomes possible to identify patterns, anomalies, and inefficiencies within the manufacturing processes. This analysis plays a crucial role in improving the overall efficiency and productivity of the Smart Factory. The integration of cloud data analysis techniques and the development of an AR system hold immense potential for enhancing the capabilities of Smart Factories. By combining real-time data analysis with virtual visualization, operators gain a comprehensive understanding of the factory’s operations, enabling proactive decision-making and timely interventions. This internship project explores the practical applications of these technologies within the context of the Savonia University of Applied Sciences Smart Factory.
 
+The remainder of this report will detail the methodology employed, the process of data collection and analysis, the development of the AR system, and the outcomes achieved. Furthermore, the report will discuss the implications and potential future advancements in the field of Smart Factory technologies. Ultimately, this project aims to contribute to the growing body of knowledge surrounding Industry 4.0 and provide valuable insights for optimizing manufacturing processes and decision-making strategies within similar industrial contexts.
 
-![[controller-board.jpg]]
-*CONTROLLER BOARD (Md. Sajib Pramanic 2023)*
+## DISTRIBUTED MANUFACTURING
 
-Figure 2 refers the main controller board. The buttons are controlling the voltage of the machine, alarms, emergency stop, start, and stop the machine respectively. Figure 3 shows the mindconnect nano device which is connected to Mindsphere.
+#### Savonia Smart Factory
 
-![[minconnectnano.png]]
-*MINDCONNECT NANO DEVICE (Mindsphere 2023)*
-
-The set point can be changed by the user using the HMI screen. Flowing the water in the upper tank is displayed on the HMI screen as Figure 4 shows.
-
-![[hmiscreen.jpg]]
-*HMI SCREEN (Md. Sajib Pramanic 2023)*
-
-The pressure gauge in the water level process serves as a crucial component for monitoring and measuring the pressure exerted by the water within the system. It is designed to provide accurate and real-time information about the pressure levels, enabling operators to maintain optimal operational conditions and ensure the safety and efficiency of the process. The pressure gauge is typically installed at a strategic location within the water level system, where it can effectively measure the pressure exerted by the water. It consists of a pressure-sensing element, which converts the applied pressure into a readable signal or display. This sensing element may employ various technologies, including diaphragm, Bourdon tube, or strain gauge, depending on the specific requirements and design of the water level process as Figure 5 refer.
-
-![[pressuregauge.png]]
-*PRESSURE GAUGE (Md. Sajib Pramanic 2023)*
+The factory depicted (FIGURE 1) is a compact and intelligent manufacturing facility that specializes in producing simplistic three-piece boxes, as shown in FIGURE 2. These boxes comprise a bottom piece, a top piece, and a bolt that connects them. Designed as an industry 4.0 smart factory, it encompasses all the essential components and hardware required for its operations.
 
 
-The pressure gauge is connected to the water level system through appropriate fittings or connections, allowing for the transfer of pressure to the sensing element. As the water level fluctuates or the flow rate changes, the pressure gauge detects these variations and provides corresponding readings. These readings are typically displayed on a dial or digital display located on the gauge itself. The information provided by the pressure gauge is crucial for operators and control systems to monitor and adjust the water level process effectively. By observing the pressure readings, operators can identify abnormal conditions such as excessive pressure, which may indicate blockages, restrictions, or other issues within the system. This early detection of anomalies allows for prompt intervention and corrective actions to prevent damage or malfunction.
+![[smartfactory.png]]
+ *Smart factory with name labels pointing at the corresponding stations. Station names: IMS 3 stations have the bottom part of the box, IMS 4 stations have the top part of the box, IMS 5 stations have the bolts for the box, IMS 6 is the quality control and IMS 7 is the station that removes the product from the pro-duction line. Variants a and b are for a different colors of the same part. (Martikainen 2022, CC BY-NC)*
+
+The factory’s hardware consists of modular conveyor belts, which can accommodate stations on top of them. In the basic setup, there are stations for selecting two different colors for each part: black and white for the top and bottom pieces, and metal or red plastic for the bolts. Consequently, there are six stations dedicated to these distinct components. Additionally, there is a station responsible for removing the finished pieces from the carriers. To enhance the setup, this thesis introduces an extra station for conducting quality control before the piece is detached from the carrier. Each conveyor belt is equipped with a programmable logic controller, a motor, two magnetic detection sensors, and an RFID (radio frequency identification) reader/writer. Furthermore, the quality control station’s hardware includes a ring light, a backlight, a camera, and a computer that runs the necessary software.
 
 
-## PID
+![[product.png]]
+*Assembled smart-factory product with white bottom, black top, and red bolt (Martikainen 2022, CC BY-NC)*
 
-The PID controller regulates and maintains the desired water level in the system. It consists of three control components: the proportional, integral, and derivative terms. The proportional term adjusts the control output based on the current error between the desired set point and the actual water level. The integral term integrates the past errors over time to reduce steady-state errors and improve system stability. The derivative term predicts the future trend of the error and adjusts the control output accordingly to enhance the system’s response to changes.
+The primary function of the factory involves customers placing orders for their desired boxes through the web shop, which are then manufactured accordingly. The factory is arranged in a loop configuration, employing conveyor belts and stations as illustrated in Figure 1. At the final station, the completed product is removed, allowing the empty carrier to return to the starting point for the subsequent assembly.
 
-The PID controller receives input from sensors that measure the water level and calculates the appropriate control signal to actuate valves, pumps, or other actuators in the water level process. By continuously monitoring the water level and comparing it to the set point, the PID controller adjusts the control signal to maintain the desired level. The control signal generated by the PID controller influences the actuators in a way that either increases or decreases the flow of water in the system, aiming to minimize the error between the set point and the actual water level. Through this continuous feedback loop, the PID controller strives to achieve precise control and maintain stability in the water level process.
+![[qualitycontrol.png]]
+*Quality control hardware (Martikainen 2022, CC BY-NC)*
 
-
-
-The effectiveness of the PID controller lies in its ability to adapt and respond to changing conditions. The control parameters, including the proportional, integral, and derivative gains, can be adjusted to optimize the controller’s performance based on the specific characteristics of the water level process. By fine-tuning these parameters, the PID controller can achieve improved response times, minimize overshooting or undershooting, and enhance the overall control performance. P stands for proportional. The block creates an output signal proportional to the magnitude of the Error. Rate of response changing by adjusting the P-gain value increases or decreases the rate of response. Figure 6 refer proportional diagram.
-
-![[proportional.jpg]]
-*PROPORTIONAL (P) DIAGRAM (Pasi Lepistö 2023)*
-
-PI stands for integral. The integral block creates an output proportional to the duration and magnitude of the Error Signal. Integral controller acts until Error value is zero, thus eliminates steady state error. Figure 7 shows integral diagram.
-
-![[integral.jpg]]
-*INTEGRAL (PI) DIAGRAM (Pasi Lepistö 2023)*
-
-PID stands for derivative. The derivative block outputs a signal proportional to the rate of change of the Error signal. Grater the error rate of change, larger the derivative output. D-controller anticipates the future error behaviour. Figure 8 shows derivative diagram.
-
-![[derivative.jpg]]
-*DERIVATIVE (PID) DIAGRAM (Pasi Lepistö 2023)*
+The production process begins with the carrier starting at IMS3_a, where it collects the bottom piece. At IMS3_a, the black piece is available, while IMS3_b offers the white piece. Continuing counterclockwise, the carrier moves to the IMS4 station to retrieve the top piece. IMS4_a provides the white top piece, and IMS4_b supplies the black top piece. Proceeding along, the next stations, IMS5_a and IMS5_b, offer the option to add an optional bolt. IMS5_a presents a red bolt, and IMS5_b provides a metal bolt. Once the product is fully assembled, it proceeds to the IMS6 quality control station (refer to Figure 3). At this point, the station is connected to a PC running machine vision software (marked as “quality control” in Figure 6). The machine vision software is responsible for inspecting the product’s quality. Finally, after the quality control assessment is completed, the product is removed from the factory loop at the IMS7 station. The smart factory at Savonia follows a well-defined setup, as depicted in Figure 1 and Figure 4.
 
 
-## MindSphere Server
+![[diagramsmartfactory.png]]
+*Diagram of the smart-factory loop (Martikainen 2022, CC BY-NC)*
 
 
-Mindsphere is a cloud based, open IoT operating system developed by Siemens. It allows companies to connect their machines, plants, and other assets to the internet and collect data from them, which can be analyzed to improve performance, optimize maintenance, and reduce downtime. The MindSphere server is utilized to provide a platform where the data can be accessed and viewed by the user. It serves as a centralized repository for storing and managing the data collected from the water level process. The MindSphere server offers a range of features and functionalities that enable users to effectively analyze and interpret the data.
+#### Overall Equipment Effectiveness (OEE)
+
+OEE is a key performance metric used to measure and evaluate the efficiency and productivity of equipment or machinery in a manufacturing environment. It provides insights into how effectively the equipment is being utilized and how well it is performing in terms of availability, performance, and quality.
+
+**Availability:** This component measures the percentage of time that the equipment is available for production. The scale is 0 to 1.
+
+**Performance:** The performance component of OEE assesses how efficiently the equipment is operating relative to its maximum potential. It considers factors such as production speed, cycle time, and the occurrence of minor stoppages.
+
+**Quality:** The quality component of OEE evaluates the percentage of good-quality products or output that the equipment generates. It takes into consideration the number of defects, rework, scrap, or any other quality issues that affect the overall quality of the produced goods.
+
+The OEE formula is calculated by multiplying the availability, performance, and quality percentages:
+
+**OEE = Availability% × Performance% × Quality%**
+
+![[oee.png]]
+*source: www.google.com*
 
 
-Data from various sources, such as sensors and control systems, are transmitted to the MindSphere server for storage and processing. This data includes crucial parameters like motor speed, water flow rate, and errors, among others, which are essential for understanding the performance and behavior of the water level process. By leveraging the capabilities of the MindSphere server, users can access the collected data through a user-friendly interface. The server provides visualization tools, charts, and graphs that allow users to explore and analyze the data in a comprehensive manner. This visual representation of the data aids in identifying patterns, trends, and anomalies, providing valuable insights into the performance and efficiency of the water level process.
+#### Main Idea of Distributed Manufacturing
+
+The project’s concept revolves around empowering customers to select their desired products through a third-party server and place orders using a Python program. Illustrated in Figure A, users of the Smart Factory initiate orders through the COMMON OPENCART platform.
+
+![[gistsmartfactory.png]]
+*Gist of the smart factory (Xiaoyang Zhang 2022)*
+
+Once orders are correctly placed on the COMMON OPENCART server, customers can transmit these orders. Utilizing a Python script, essential data is extracted from the orders and transmitted to the ERP systems of the Kuopio and Iisalmi smart factories. The connectivity between COMMON OPENCART, the Python script, and the ERP systems is facilitated through API keys. To generate API keys for each OpenCart server, users need to access the admin URL of the OpenCart server, navigate to System -> Users -> API, and click the “Generate” button to obtain the keys. With these API keys, a connection between servers can be established, enabling remote control through the Python script.
 
 
-Additionally, the MindSphere server offers data analysis capabilities, allowing users to apply advanced analytical techniques to extract meaningful information from the collected data. Users can employ statistical analysis, machine learning algorithms, and other data processing methods to gain deeper insights into the behavior and performance of the water level process. This enables users to make informed decisions, optimize operations, and identify areas for improvement.
+## Augmented reality (AR)
+
+#### Introduction of Augmented Reality (AR)
+
+Augmented reality (AR) refers to the seamless integration of digital information into the user’s re-al-time environment. Unlike virtual reality (VR) that constructs entirely artificial worlds, AR enhances the real world by overlaying generated perceptual data onto it. The purpose of augmented reality is twofold. first, it can visually modify natural environments, and second, it provides users with supplementary information. The key advantage of AR lies in its ability to merge digital and three-dimensional (3D) elements with an individual’s perception of the physical world. This technology finds applications in a wide range of fields, from aiding decision-making processes to offering entertainment experiences.
+AR employs various sensory inputs, such as visuals, sound, and more, and delivers them to users through devices like smartphones or specialized glasses. The information is superimposed onto the user’s view, creating an intertwined experience where digital content interacts with the real-world environment. This overlay can either add new elements to the surroundings or conceal parts of the natural environment, enhancing the user’s overall perception and interaction with the world around them.
 
 
-The MindSphere server also supports collaborative features, allowing multiple users to access and share the data. This facilitates teamwork, knowledge sharing, and collaborative decision-making among stakeholders involved in the water level process. Users can collaborate remotely, providing a flexible and efficient means of collectively analyzing and interpreting the data. Figure 9 shows mindsphere server home page.
+#### How does augmented reality work?
+
+Augmented reality (AR) can be experienced through various platforms, including smartphones, tablets, and glasses. Researchers are also working on delivering AR through contact lenses. To enable AR functionality, specific hardware components are required, such as processors, sensors, displays, and input devices. Most mobile devices already come equipped with these components, including cameras, accelerometers, Global Positioning System (GPS), and solid-state compasses, making AR more accessible to the general public. The GPS is utilized to pinpoint the user’s location, while the compass detects the device’s orientation. In more advanced AR applications, like those used in military training, additional features like machine vision, object recognition, and gesture recognition may be incorporated. Due to the computational complexity of AR, devices with limited processing power can offload data processing to external machines to ensure smooth performance. Developers create AR apps using specialized 3D programs that allow them to associate animations or contextual digital information in the computer program with specific augment-ed reality markers in the physical world. When an AR app or browser plugin on a computing de-vice detects digital information from a known marker, it executes the marker’s code and overlays the appropriate image or images onto the real-world view, providing a seamless augmented reality experience.
 
 
-![[mindsphereserver.png]]
-*MINDSPHERE SERVER HOME PAGE (Md. Sajib Pramanic 2023)*
+#### Develop the AR in Savonia Smart Factory
 
-Furthermore, the MindSphere server ensures data security and privacy by implementing robust security measures. It utilizes encryption protocols, access controls, and authentication mechanisms to safeguard the data and ensure that only authorized users have access to it. This ensures the confidentiality and integrity of the data, mitigating the risk of unauthorized access or data breaches.
+To begin, establish a connection with the smart factory network named AutotekWlan. Figure 5 il-lustrates the details of the current network setup.
+
+![[connect.png]]
+*Connect with smart factory network (Md. Sajib Pramanic 2023)*
+
+Launch the IMS Factory mobile app by Lucas-Nulle, and proceed to configure the new settings. Then crate new segments and click the create option. Figure 6 refer the configuration option.
+
+![[configuration.png]]
+*Configuration (Md. Sajib Pramanic 2023)*
+
+Configure the segment name, IP address and Line type. Create the new signal. Figure 7 refers the segment configuration.
+
+![[segmentconfiguration.png]]
+*Segment configuration (Md. Sajib Pramanic 2023)*
+
+
+Create the signal for Drive Left, Drive Right and Drive slow. Drive slow signal makes the drive slow. After that create the signal for B1,B2, Show left and Show right. Save it. Figure 8, 9 and 10 shows all the signal configuration.
+
+Signal Configuration 1
+![[signal.png]]
+*Signal Configuration (Md. Sajib Pramanic 2023)*
+
+Signal Configuration 2
+![[signal2.png]]
+*Signal Configuration (Md. Sajib Pramanic 2023)*
+
+Signal Configuration 2
+![[signal3.png]]
+*Signal Configuration and Segment saved (Md. Sajib Pramanic 2023)*
+
+
+After save the segment need to open start ther augmented reality (see the Figure 9). The scan option shows to scan the smart factory IMS. Place the signal position and add the signal B1, B2 and motor respectively. Figure 11, 12, 13 and 14 refers the signal positions.
+
+![[scaning.png]]
+*Scanning (Md. Sajib Pramanic 2023)*
+
+![[place.png]]
+*Place the signal B1 left side (Md. Sajib Pramanic 2023)*
+
+![[placeb2.png]]
+*Place the signal B2 right side (Md. Sajib Pramanic 2023)*
+
+![[placemotor.png]]
+*Place the motor (Md. Sajib Pramanic 2023)*
+
+
+The addition of the line configuration is needed, and the Segment Ims 3a should be added as one of the line options and save it. Figure 15 displays the line configurations.
+
+![[lineconfiguration.png]]
+*Line configuration (Md. Sajib Pramanic 2023)*
+
+
+Through this approach, all the segments can be added. The Maintenance option displays all the lines, each of which is associated with a different signal. Figure 16 illustrates all the lines and signals.
+
+![[maintaince.png]]
+*Maintenance (Md. Sajib Pramanic 2023)*
+
+
 
 
 ## Result
 
-### MindSphere Platform
-
-The utilization of PID controllers and Mindsphere in process control is deemed highly beneficial. The control variables of a system can be adjusted in real time by PID controllers, resulting in more stable and accurate control, reduced variability, and improved overall performance. Similarly, Mindsphere offers a powerful platform for data analysis, visualization, and real-time remote moni-toring. When combined, these technologies enable processes to be optimized, downtime to be reduced, and efficiency to be improved. Figure 10 shows results of the project.
-
-![[waterprocessresult.jpeg]]
-*WATER PROCESS DATA ON MINDSPHERE (Md. Sajib Pramanic 2023)*
-
-### Digital Twin Using Excel Simulator
-
-The development of the digital twin using the excel simulator is a significant aspect of this pro-ject. The digital twin serves as a virtual replica of the water level process, providing a simulated environment for testing, analysis, and optimization. Using the excel simulator, the digital twin replicates the dynamics and characteristics of the actual water level process. It takes into ac-count factors such as sensor inputs, actuator responses, and control algorithms to accurately simulate the behavior of the real system. By implementing mathematical models and algorithms, the excel simulator enables the digital twin to mimic the operational aspects of the water level process. The excel simulator provides visualization tools and data analysis capabilities that enable users to observe and interpret the simulation results. Graphs, charts, and reports can be generated to analyze key performance indicators, identify bottlenecks, and uncover opportunities for process optimization. Figure 11 refer result of this.
+#### Augmented reality (AR)
 
 
-![[dititaltwinsimulator.png]]
-*DEVELOP THE DIGITAL TWIN USING EXCEL (Md. Sajib Pramanic and Kolosov 2023)*
+The implementation of Augmented Reality (AR) in the Smart Factory resulted in significant benefits, particularly in signal monitoring and manual operation. Figure 17 demonstrates the effective-ness of the AR system, where the signal accurately corresponds to the product’s proximity to its designated location. When the product approaches the signal, it triggers a correct response, indicated by a green signal in Figure 17, affirming its alignment with the designated signal position. This AR-based monitoring and operation capability have proven to be valuable assets in optimizing the efficiency and accuracy of the Smart Factory’s processes.
+
+![[leftsidesignal.png]]
+*Left side signal (Md. Sajib Pramanic 2023)*
+
+![[rightsidesingal.png]]
+*Right side signal (Md. Sajib Pramanic 2023)*
 
 
-The development of the digital twin using the excel simulator is a valuable component of this pro-ject. It creates a virtual replica of the water level process, enabling simulation, analysis, and op-timization. By leveraging the capabilities of the excel simulator, the digital twin facilitates testing, experimentation, and performance evaluation in a safe and controlled environment. This aids in the development and improvement of the water level process, leading to enhanced operational efficiency and effectiveness.
 
+#### MindSphere Platform
+
+As a result, Mindsphere, developed by Siemens, emerges as a cloud-based and open IoT operating system. It empowers companies to establish connections between their machinery, plants, and assets, enabling data collection from these sources. This data is subsequently analyzed to enhance performance, optimize maintenance procedures, and minimize downtime. The utilization of the MindSphere server acts as a platform for users to access and view the collected data from the water level process. It functions as a centralized repository, efficiently storing and managing the gathered data. The MindSphere server offers a comprehensive set of features and functionalities, empowering users to perform effective data analysis and interpretation.
+
+
+In Figure 19, the MindSphere server is represented, displaying the results related to camera sta-tus, camera movement, camera errors, COAP enablement, order of pieces, successful piece or-ders, and smart grid data.
+
+![[mindspheresmartfactory.png]]
+*Smart factory data transferred to the MindSphere server (Md. Sajib Pramanic 2023)*
 
 
 ## CONCLUSION
 
-The outcomes of this project have practical implications in various industrial and infrastructure systems that rely on effective water level monitoring and control. By leveraging the advancements achieved through this project, operators and engineers can make data-driven decisions, optimize processes, reduce downtime, and improve overall system performance. As technology continues to advance, there are opportunities for further research and development in the field of water level process optimization. Future work may involve exploring advanced control algorithms, incorporating machine learning techniques for predictive analysis, and enhancing the integration of cloud-based platforms for real-time monitoring and remote control.
+The implementation of Augmented Reality (AR) within the Smart Factory has yielded significant benefits, particularly in the areas of signal monitoring and manual operations. Figure 16 serves as evidence of the AR system’s effectiveness, showcasing the precise correlation between the signal and the product’s proximity to its designated location. With the product’s approach to the signal, a correct response is triggered, represented by the green signal in Figure 17 and 18, validating its alignment with the designated signal position. This AR-based monitoring and operational capability have proven to be valuable assets, contributing to the optimization of the Smart Factory’s processes, enhancing efficiency, and ensuring accuracy.
 
 
-In conclusion, the successful implementation of the mindsphere water level process cloud data analysis project has provided valuable insights and practical solutions for optimizing water level processes using modern technologies. This project serves as a steppingstone towards achieving efficient and reliable water level control in various industrial and infrastructure applications.
+In conclusion, the successful implementation of AR and Mindsphere has propelled the Smart Factory towards greater efficiency, precision, and productivity, establishing it as a state of the art manufacturing facility at the forefront of technological advancements in the industry. The amalgamation of these cutting edge technologies holds immense promise for future growth and innovation in the manufacturing landscape.
 
 
 
 ## Video Demonstration
 
-You can watch the full video from [here](https://vlefactory.eu/wp-content/uploads/2023/07/Water-process__MindSphere-and-EXCEL-PID.mp4) . <font color="#c0504d">Note: </font>Please be advised that if you encounter difficulties viewing the video, we recommend utilizing the Google Chrome web browser.
+You can watch the full video about [Developed the Augmented Reality (AR) on Savonia Smart Factory](https://drive.google.com/file/d/1ff6Gss9zsGMRF3hGoCz2NeZWjqnoe_xf/view)  and another video about [Distibuted Manufacturing SAVONIA & YSAO](https://amksavonia-my.sharepoint.com/personal/md_sajib_pramanic_edu_savonia_fi/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmd%5Fsajib%5Fpramanic%5Fedu%5Fsavonia%5Ffi%2FDocuments%2FDistibuted%20Manufacturing%20SAVONIA%20%26%20YSAO%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E7ffc703f%2Daa15%2D4c78%2D8082%2Da230e08f54af) <font color="#c0504d">Note: </font>Please be advised that if you encounter difficulties viewing the video, we recommend utilizing the Google Chrome web browser.
 
 
 
 > [!note] Note
-> You can visit the [VLEFACTORY website](https://vlefactory.eu/mu1-siemens-mindsphere-water-process-data-analysis) where my work has been published. You can also check out my [[Internship]] 2B, where I worked with Smart Factory. Thank you.
+> I worked with Sojat K Sebgaze (IoT student, Savonia University of Applied Sciences) during this internship, I would like to thank her and Xiaoyang Zhang (IoT student, Savonia University of Applied Sciences). You can visit the [VLEFACTORY website](https://vlefactory.eu/smart-factory-data-analysis-develop-the-ar) where my work has been published. You can also check out my [[Internship]] 3 A,B, C, Where I work with Mobile Apps development and Cloud at [[Holobiont Oy]]. Thank you.
