@@ -11,6 +11,5 @@ publish: true
 
 During my Bachelor of Engineering, I completed six internships. Here are the topics I covered:
 
-1. **[[two]]** 
+1. **[[Siemens Mindsphere water process cloud data analysis and digital twin development]]** 
 2. **[[Smart Factory cloud data analysis and develop the Augmented Reality(AR)]]**
-3. 
