@@ -2,7 +2,7 @@
 title: "Data base design for Football league"
 date: false
 draft: false
-tags: [projects]
+tags: [projects, Database, SQL]
 publish: true
 ---
 

@@ -2,7 +2,7 @@
 title: "Point of Sale software design with database"
 date: false
 draft: false
-tags: [projects, C]
+tags: [projects, C, .NET]
 publish: true
 ---
 
