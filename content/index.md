@@ -13,7 +13,7 @@ I'm an Internet of Things (IoT) student at the [[Savonia University of Applied S
 
 - **Currently**, I'm working on a robotics project at the [[University of Eastern Finland]].
 - I interned at [[Holobiont Oy]] during the summer of 2023.
-- I interned at [[Siemens Mindsphere water process cloud data analysis and digital twin development]] during the spring of 2023.
+- I interned at [[Savonia-ammattikorkeakoulu Oy]] during the spring of 2023.
 - I continuously engage in [[projects]] throughout the semester to enhance my problem-solving skills alongside my theoretical studies.
 
 

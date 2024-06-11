@@ -1,5 +1,5 @@
 ---
-title: "Savonia-ammattikorkeakoulu Oy"
+title: "Siemens Mindsphere water process cloud data analysis and digital twin development"
 date: false
 draft: false
 tags: [internship]
