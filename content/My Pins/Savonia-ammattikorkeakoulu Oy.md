@@ -19,4 +19,4 @@ Here are the two topics I worked on:
 
 
 > [!done] Internship 2 A, B
-> Thank you.
+> 
