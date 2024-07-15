@@ -27,6 +27,7 @@ I frequently work with my ``kit/devices`` such as the [[NVIDIA Jetson Orin Nano]
 
 
 >[!done]My most recent project
+>-[[Sick Robot SLAM and Gmapping]]
 > - [[Data base design for Football league]]
 > - [[Self Balancing Table]]
 > - [[Portfolio website design]]
