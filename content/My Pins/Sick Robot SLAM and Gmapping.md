@@ -158,4 +158,4 @@ rosrun map_server map_saver -f robot_map
 
   
 > [!note] Note
-** You can download the full repository from [Github](https://github.com/SAJIB3489/sick_robot.git). If you face any problem, feel free to create an issue or send an email to me. Thank you.**
+> You can download the full repository from [Github](https://github.com/SAJIB3489/sick_robot.git). If you face any problem, feel free to create an issue or send an email to me. Thank you.
