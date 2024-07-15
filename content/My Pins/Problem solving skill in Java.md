@@ -68,7 +68,7 @@ First, clone the repository to your local machine:
   
 
 ```
-git clone https://github.com/SAJIB3489/problem_solving-Java.git
+<font color="#c0504d">git clone</font> https://github.com/SAJIB3489/problem_solving-Java.git
 
 cd problem_solving-Java
 ```
