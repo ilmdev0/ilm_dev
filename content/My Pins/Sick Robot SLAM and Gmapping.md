@@ -70,7 +70,6 @@ This repository contains the necessary code and instructions to build and run a 
   
 
 ```
-
 mkdir -p catkin_ws/src
 
 cd catkin_ws/src
@@ -86,7 +85,6 @@ source /opt/ros/noetic/setup.bash
 source ~/catkin_ws/devel/setup.bash
 
 catkin_make
-
 ```
 
   
@@ -99,9 +97,7 @@ catkin_make
 **Launch gazebo simulation**
 
 ```
-
 roslaunch sick_robot_description gazebo.launch
-
 ```
 
   
@@ -110,9 +106,7 @@ roslaunch sick_robot_description gazebo.launch
 **Launch RViz** Open a new Terminal.
 
 ```
-
 roslaunch sick_robot_description display.launch
-
 ```
 
   
@@ -120,9 +114,7 @@ roslaunch sick_robot_description display.launch
 **Start Gmapping** Open a new Terminal.
 
 ```
-
 roslaunch sick_robot_description mapping.launch
-
 ```
 
   
@@ -130,9 +122,7 @@ roslaunch sick_robot_description mapping.launch
 **Drive the robot using keyboard** Open a new Terminal.
 
 ```
-
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
-
 ```
 
 If you do not have the package install it using ``sudo apt-get install ros-$ROS_DISTRO-teleop-twist-keyboard``
@@ -147,9 +137,7 @@ If you do not have the package install it using ``sudo apt-get install ros-$ROS_
 **To save the map**
 
 ```
-
 rosrun map_server map_saver -f robot_map
-
 ```
 
   
