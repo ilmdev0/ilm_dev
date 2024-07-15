@@ -15,7 +15,8 @@ publish: true
 
   
 
->[!done] During my fourth semester at [[Savonia University of Applied Sciences]], I took a course on Data Structures and Algorithms. During this time, I learned Java programming and engaged in various class exercises, problem-solving tasks, and additional assignments. Here are the topics I covered:
+>[!done] Java
+>During my fourth semester at [[Savonia University of Applied Sciences]], I took a course on Data Structures and Algorithms. During this time, I learned Java programming and engaged in various class exercises, problem-solving tasks, and additional assignments. Here are the topics I covered:
 
   
 
@@ -99,7 +100,7 @@ Select the project folder and click OK.
 
 3. **Configure JDK:**
 
-IntelliJ might prompt you to configure the JDK if it's not already set. Point to the JDK installation path (e.g., C:\Program Files\Java\jdk-17).
+IntelliJ might prompt you to configure the JDK if it's not already set. Point to the JDK installation path (e.g., ``C:\Program Files\Java\jdk-17``).
 
   
 
@@ -142,7 +143,7 @@ Select the project folder and click OK.
 
 3. **Configure JDK:**
 
-IntelliJ might prompt you to configure the JDK if it's not already set. Point to the JDK installation path (e.g., /usr/lib/jvm/java-17-openjdk).
+IntelliJ might prompt you to configure the JDK if it's not already set. Point to the JDK installation path (e.g.,`` /usr/lib/jvm/java-17-openjdk``).
 
   
 
@@ -163,5 +164,5 @@ Right-click inside the editor and select Debug <ClassName>.
 IntelliJ will start the debugger, and execution will pause at the breakpoints you set. You can then step through the code, inspect variables, and evaluate expressions.
 
   
-
-**Thank you.**
+> [!note] Note
+> You can download the full repository from my [Github](https://github.com/SAJIB3489/problem_solving-Java.git). Thank you.
