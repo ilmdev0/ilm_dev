@@ -15,12 +15,11 @@ publish: true
 
   
 
-Welcome to my Java Programming Exercises repository. This repository contains solutions and exercises that demonstrate my practice at my university and problem-solving skills in Java. The exercises cover various fundamental and advanced topics in Java programming.
+>[!done] During my fourth semester at [[Savonia University of Applied Sciences]], I took a course on Data Structures and Algorithms. During this time, I learned Java programming and engaged in various class exercises, problem-solving tasks, and additional assignments. Here are the topics I covered:
 
   
 
-## Topics Covered
-
+## The Following Topics Covered
   
 
 1. Introduction Task (Basics)
@@ -68,11 +67,9 @@ First, clone the repository to your local machine:
   
 
 ```
-
 git clone https://github.com/SAJIB3489/problem_solving-Java.git
 
 cd problem_solving-Java
-
 ```
 
   
@@ -165,7 +162,6 @@ Right-click inside the editor and select Debug <ClassName>.
 
 IntelliJ will start the debugger, and execution will pause at the breakpoints you set. You can then step through the code, inspect variables, and evaluate expressions.
 
-  
   
 
 **Thank you.**
