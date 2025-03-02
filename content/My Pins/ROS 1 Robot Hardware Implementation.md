@@ -71,8 +71,8 @@ publish: true
          'height': 'label',
           'min-width': '120px',
           'min-height': '60px',
-          'text-margin-y': '8px',
-         'text-margin-x': '10px',
+          'text-margin-y': '20px',
+         'text-margin-x': '20px',
         'nodeDimensionsIncludeLabels': true,
         // 'width': 'auto',
         // 'height': 'auto'
