@@ -74,8 +74,8 @@ publish: true
           'text-margin-y': '8px',
          'text-margin-x': '10px',
         'nodeDimensionsIncludeLabels': true,
-         'width': 'auto',
-         'height': 'auto'
+        // 'width': 'auto',
+        // 'height': 'auto'
        
         }
       },
