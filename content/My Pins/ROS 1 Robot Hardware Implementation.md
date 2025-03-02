@@ -11,6 +11,7 @@ publish: true
 
 
 <div id="cy"></div>
+<div id="cy"></div>
 
 <!-- Include libraries -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.23.0/cytoscape.min.js"></script>
@@ -67,4 +68,99 @@ publish: true
     const node = event.target;
     alert(`Clicked: ${node.data('label')}`);
   });
-</script>
+</script>](<%3Cdiv id="cy"%3E</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.23.0/cytoscape.min.js"></script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+  
+  #cy {
+    width: 100%;
+    height: 800px;
+    border: 1px solid #444;
+    background: #f8f8f8;
+  }
+</style>
+
+<script>
+  const cy = cytoscape({
+    container: document.getElementById('cy'),
+    elements: [
+      // Nodes
+      { 
+        data: { 
+          id: 'nav2_planner',
+          label: 'nav2_planner_server\n/mobile_base_controller/odom',
+          url: 'https://pramanic.fi/My-Pins/Sick-Robot-SLAM-and-Gmapping' 
+        },
+        position: { x: 200, y: 100 }
+      },
+      {
+        data: {
+          id: 'controller',
+          label: 'nav2_controller_server\n/local_costmap',
+          url: 'https://pramanic.fi/My-Pins/Smart-Factory-cloud-data-analysis-and-develop-the-Augmented-Reality(AR)'
+        },
+        position: { x: 600, y: 100 }
+      },
+      // Edges
+      { data: { id: 'e1', source: 'nav2_planner', target: 'controller' } }
+    ],
+    style: [
+      {
+        selector: 'node',
+        style: {
+          'label': 'data(label)',
+          'text-valign': 'center',
+          'text-halign': 'center',
+          'font-family': 'Ubuntu Mono, monospace',
+          'font-size': '12px',
+          'color': '#2c3e50',
+          'background-color': '#e0e7ff',
+          'border-color': '#6366f1',
+          'border-width': '2px',
+          'shape': 'rectangle',
+          'padding': '15px',
+          'text-max-width': '200px',
+          'text-wrap': 'wrap',
+          'min-width': '100px',
+          'min-height': '50px'
+        }
+      },
+      {
+        selector: 'edge',
+        style: {
+          'width': 2,
+          'line-color': '#4f46e5',
+          'curve-style': 'straight',
+          'target-arrow-shape': 'triangle',
+          'target-arrow-color': '#4f46e5',
+          'arrow-scale': 1.5
+        }
+      }
+    ],
+    layout: { name: 'preset' }
+  });
+
+  // Enable pan/zoom
+  cy.userPanningEnabled(true);
+  cy.userZoomingEnabled(true);
+
+  // Click handler for nodes with links
+  cy.on('tap', 'node', (event) => {
+    const node = event.target;
+    const url = node.data('url');
+    if(url) {
+      window.location.href = url;
+    }
+  });
+
+  // Automatically fit nodes to text
+  cy.nodes().layout({
+    name: 'cola',
+    fit: true,
+    padding: 30,
+    nodeDimensionsIncludeLabels: true
+  }).run();
+</script>>)
