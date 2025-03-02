@@ -34,7 +34,7 @@ publish: true
         data: { 
           id: 'nav2_planner',
           label: 'nav2_planner_server\n/mobile_base_controller/odom',
-          url: '/path/to/nav2_details' 
+          url: 'https://pramanic.fi/My-Pins/Sick-Robot-SLAM-and-Gmapping#two-wheel-simple-robot-slam-and-gmapping' 
         },
         position: { x: 200, y: 100 }
       },
@@ -42,7 +42,7 @@ publish: true
         data: {
           id: 'controller',
           label: 'nav2_controller_server\n/local_costmap',
-          url: '/path/to/controller_details'
+          url: 'https://pramanic.fi/My-Pins/Sick-Robot-SLAM-and-Gmapping#two-wheel-simple-robot-slam-and-gmapping'
         },
         position: { x: 600, y: 100 }
       },
