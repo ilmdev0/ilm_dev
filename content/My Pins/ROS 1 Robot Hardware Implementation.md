@@ -110,12 +110,12 @@ publish: true
   });
 
   // Automatically fit nodes to text
-  /*
+  
   cy.nodes().layout({
     name: 'cola',
     fit: true,
-    padding: 30,
+    padding: 50,
     nodeDimensionsIncludeLabels: true
   }).run();
-  */
+  
 </script>
