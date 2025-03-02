@@ -73,7 +73,7 @@ publish: true
           'min-height': '60px',
        //   'text-margin-y': '8px',
        //   'text-margin-x': '10px'
-        'nodeDimensionsIncludeLabels': true
+        'nodeDimensionsIncludeLabels': true,
          'width': 'auto',
          'height': 'auto'
        
