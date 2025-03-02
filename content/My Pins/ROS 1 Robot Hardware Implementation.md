@@ -10,6 +10,7 @@ publish: true
 > Hardware Implementation Architecture Graph
 
 
+
 <div id="cy"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.23.0/cytoscape.min.js"></script>
@@ -29,25 +30,25 @@ publish: true
   const cy = cytoscape({
     container: document.getElementById('cy'),
     elements: [
-      // Nodes
-      { 
-        data: { 
-          id: 'nav2_planner',
-          label: 'nav2_planner_server\n/mobile_base_controller/odom',
-          url: 'https://pramanic.fi/My-Pins/Sick-Robot-SLAM-and-Gmapping#two-wheel-simple-robot-slam-and-gmapping' 
-        },
-        position: { x: 200, y: 100 }
-      },
       {
-        data: {
-          id: 'controller',
-          label: 'nav2_controller_server\n/local_costmap',
-          url: 'https://pramanic.fi/My-Pins/Sick-Robot-SLAM-and-Gmapping#two-wheel-simple-robot-slam-and-gmapping'
+        data: { 
+          id: 'nav2_controller',
+          label: 'nav2_controller server\n/module_base_controller/odom',
+          url: 'https://pramanic.fi/My-Pins/Sick-Robot-SLAM-and-Gmapping'
         },
-        position: { x: 600, y: 100 }
+        position: { x: 400, y: 300 }
       },
-      // Edges
-      { data: { id: 'e1', source: 'nav2_planner', target: 'controller' } }
+      // Add other nodes here following the same pattern
+      {
+        data: { 
+        id: 'Gmapping_map',
+        label: 'Gmapping,
+        url: 'https://pramanic.fi/My-Pins/Sick-Robot-SLAM-and-Gmapping' 
+  },
+        position: { x: 100, y: 100 }  // Set coordinates
+       },
+
+
     ],
     style: [
       {
@@ -57,17 +58,21 @@ publish: true
           'text-valign': 'center',
           'text-halign': 'center',
           'font-family': 'Ubuntu Mono, monospace',
-          'font-size': '12px',
+          'font-size': 12,
           'color': '#2c3e50',
           'background-color': '#e0e7ff',
           'border-color': '#6366f1',
-          'border-width': '2px',
+          'border-width': 2,
           'shape': 'rectangle',
-          'padding': '15px',
-          'text-max-width': '200px',
+          'padding': 20,
+          'text-max-width': '180px',
           'text-wrap': 'wrap',
+          'width': 'label',
+          'height': 'label',
           'min-width': '100px',
-          'min-height': '50px'
+          'min-height': '60px',
+          'text-margin-y': 10,
+          'text-margin-x': 15
         }
       },
       {
@@ -76,40 +81,25 @@ publish: true
           'width': 2,
           'line-color': '#4f46e5',
           'curve-style': 'straight',
-          'target-arrow-shape': 'triangle',
-          'target-arrow-color': '#4f46e5',
-          'arrow-scale': 1.5
+          'target-arrow-shape': 'triangle'
         }
-      },
-      {
-          node:hover {
-               background-color: #c7d2fe;
-               cursor: pointer;
-          }
       }
-      
     ],
-    layout: { name: 'preset' }
+    layout: { 
+      name: 'preset',
+      nodeDimensionsIncludeLabels: true  // Critical for text containment
+    }
   });
 
   // Enable pan/zoom
   cy.userPanningEnabled(true);
   cy.userZoomingEnabled(true);
 
-  // Click handler for nodes with links
+  // Click handler for nodes
   cy.on('tap', 'node', (event) => {
     const node = event.target;
-    const url = node.data('url');
-    if(url) {
-      window.location.href = url;
+    if(node.data('url')) {
+      window.location.href = node.data('url');
     }
   });
-
-  // Automatically fit nodes to text
-  cy.nodes().layout({
-    name: 'cola',
-    fit: true,
-    padding: 30,
-    nodeDimensionsIncludeLabels: true
-  }).run();
 </script>
