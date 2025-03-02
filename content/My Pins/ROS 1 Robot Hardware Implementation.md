@@ -63,15 +63,16 @@ publish: true
           'border-color': '#6366f1',
           'border-width': '2px',
           'shape': 'rectangle',
-          'padding': '20px',
+          'padding': '15px',
+          'line-height': '1.2px',
           'text-max-width': '180px',
           'text-wrap': 'wrap',
           'width': 'label',
           'height': 'label',
           'min-width': '100px',
           'min-height': '60px',
-          'text-margin-y': '10px',
-          'text-margin-x': '15px'
+          'text-margin-y': '8px',
+          'text-margin-x': '10px'
         }
       },
       {
