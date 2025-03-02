@@ -71,7 +71,7 @@ publish: true
           'height': 'label',
           'min-width': '100px',
           'min-height': '60px',
-          'text-margin-y': '8px',
+          'text-margin-y': '10px',
           'text-margin-x': '10px'
         }
       },
