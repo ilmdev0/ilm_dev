@@ -63,11 +63,15 @@ publish: true
           'border-color': '#6366f1',
           'border-width': '2px',
           'shape': 'rectangle',
-          'padding': '15px',
-          'text-max-width': '200px',
+          'padding': '20px',
+          'text-max-width': '180px',
           'text-wrap': 'wrap',
+          'width': 'label',
+          'height': 'label',
           'min-width': '100px',
-          'min-height': '50px'
+          'min-height': '60px',
+          'text-margin-y': '10px',
+          'text-margin-x': '15px'
         }
       },
       {
@@ -82,7 +86,9 @@ publish: true
         }
       }
     ],
-    layout: { name: 'preset' }
+    layout: { name: 'preset',
+    nodeDimensionsIncludeLabels: true 
+    }
   });
 
   // Enable pan/zoom
