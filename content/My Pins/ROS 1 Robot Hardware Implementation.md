@@ -28,51 +28,43 @@ publish: true
   // Initialize graph
   const cy = cytoscape({
     container: document.getElementById('cy'),
-    elements: [ /* Nodes and edges */ ],
-    style: [ /* Styling */ ],
-    layout: { name: 'preset' } // Use predefined positions
+    elements: [ 
+      // Nodes
+      { data: { id: 'drive', label: 'Drive' }, position: { x: 100, y: 50 } },
+      { data: { id: 'int_face', label: 'Int_face_detect' }, position: { x: 300, y: 50 } },
+      // Edges
+      { data: { id: 'e1', source: 'drive', target: 'int_face' } }
+    ],
+    style: [
+      {
+        selector: 'node',
+        style: {
+          'label': 'data(label)',
+          'background-color': '#6FB1FC',
+          'text-valign': 'center',
+          'shape': 'rectangle',
+          'padding': '10px'
+        }
+      },
+      {
+        selector: 'edge',
+        style: {
+          'width': 2,
+          'line-color': '#999',
+          'curve-style': 'bezier'
+        }
+      }
+    ],
+    layout: { name: 'preset' }
   });
 
   // Enable pan/zoom
   cy.userPanningEnabled(true);
   cy.userZoomingEnabled(true);
+
+  // Click handler
+  cy.on('tap', 'node', (event) => {
+    const node = event.target;
+    alert(`Clicked: ${node.data('label')}`);
+  });
 </script>
-
-elements: [
-  // Nodes
-  { data: { id: 'drive', label: 'Drive' }, position: { x: 100, y: 50 } },
-  { data: { id: 'int_face', label: 'Int_face_detect' }, position: { x: 300, y: 50 } },
-  // Edges
-  { data: { id: 'e1', source: 'drive', target: 'int_face' } }
-],
-
-// Style
-
-style: [
-  {
-    selector: 'node',
-    style: {
-      'label': 'data(label)',
-      'background-color': '#6FB1FC',
-      'text-valign': 'center',
-      'shape': 'rectangle',
-      'padding': '10px'
-    }
-  },
-  {
-    selector: 'edge',
-    style: {
-      'width': 2,
-      'line-color': '#999',
-      'curve-style': 'bezier'
-    }
-  }
-]
-
-// Clickable
-
-cy.on('tap', 'node', (event) => {
-  const node = event.target;
-  alert(`Clicked: ${node.data('label')}`);
-  // Replace with your logic (e.g., open a modal)
-});
