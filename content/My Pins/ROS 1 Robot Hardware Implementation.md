@@ -11,64 +11,6 @@ publish: true
 
 
 <div id="cy"></div>
-<div id="cy"></div>
-
-<!-- Include libraries -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.23.0/cytoscape.min.js"></script>
-
-<style>
-  #cy {
-    width: 100%;
-    height: 600px;
-    border: 1px solid #ccc;
-    background: white;
-  }
-</style>
-
-<script>
-  // Initialize graph
-  const cy = cytoscape({
-    container: document.getElementById('cy'),
-    elements: [ 
-      // Nodes
-      { data: { id: 'drive', label: 'Drive' }, position: { x: 100, y: 50 } },
-      { data: { id: 'int_face', label: 'Int_face_detect' }, position: { x: 300, y: 50 } },
-      // Edges
-      { data: { id: 'e1', source: 'drive', target: 'int_face' } }
-    ],
-    style: [
-      {
-        selector: 'node',
-        style: {
-          'label': 'data(label)',
-          'background-color': '#6FB1FC',
-          'text-valign': 'center',
-          'shape': 'rectangle',
-          'padding': '10px'
-        }
-      },
-      {
-        selector: 'edge',
-        style: {
-          'width': 2,
-          'line-color': '#999',
-          'curve-style': 'bezier'
-        }
-      }
-    ],
-    layout: { name: 'preset' }
-  });
-
-  // Enable pan/zoom
-  cy.userPanningEnabled(true);
-  cy.userZoomingEnabled(true);
-
-  // Click handler
-  cy.on('tap', 'node', (event) => {
-    const node = event.target;
-    alert(`Clicked: ${node.data('label')}`);
-  });
-</script>](<%3Cdiv id="cy"%3E</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.23.0/cytoscape.min.js"></script>
 
@@ -92,7 +34,7 @@ publish: true
         data: { 
           id: 'nav2_planner',
           label: 'nav2_planner_server\n/mobile_base_controller/odom',
-          url: 'https://pramanic.fi/My-Pins/Sick-Robot-SLAM-and-Gmapping' 
+          url: '/path/to/nav2_details' 
         },
         position: { x: 200, y: 100 }
       },
@@ -100,7 +42,7 @@ publish: true
         data: {
           id: 'controller',
           label: 'nav2_controller_server\n/local_costmap',
-          url: 'https://pramanic.fi/My-Pins/Smart-Factory-cloud-data-analysis-and-develop-the-Augmented-Reality(AR)'
+          url: '/path/to/controller_details'
         },
         position: { x: 600, y: 100 }
       },
@@ -163,4 +105,4 @@ publish: true
     padding: 30,
     nodeDimensionsIncludeLabels: true
   }).run();
-</script>>)
+</script>
