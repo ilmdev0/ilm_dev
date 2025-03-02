@@ -80,14 +80,7 @@ publish: true
           'target-arrow-color': '#4f46e5',
           'arrow-scale': 1.5
         }
-      },
-      {
-          node:hover {
-               background-color: #c7d2fe;
-               cursor: pointer;
-         }
       }
-      
     ],
     layout: { name: 'preset' }
   });
