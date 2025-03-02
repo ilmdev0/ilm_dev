@@ -1,8 +1,9 @@
 ---
-title: "Smart Factory cloud data analysis and develop the Augmented Reality(AR)"
+title: Smart Factory cloud data analysis and develop the Augmented Reality(AR)
 date: false
 draft: false
-tags: [internship]
+tags:
+  - internship
 publish: true
 ---
 
