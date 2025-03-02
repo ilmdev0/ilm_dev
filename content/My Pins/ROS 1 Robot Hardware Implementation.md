@@ -67,8 +67,8 @@ publish: true
           'line-height': '1.2',
           'text-max-width': '180px',
           'text-wrap': 'wrap',
-          'width': 'label',
-          'height': 'label',
+        //  'width': 'label',
+        //  'height': 'label',
           'min-width': '120px',
           'min-height': '60px',
           'text-margin-y': '8px',
@@ -110,12 +110,12 @@ publish: true
   });
 
   // Automatically fit nodes to text
-  
+  /*
   cy.nodes().layout({
     name: 'cola',
     fit: true,
     padding: 30,
     nodeDimensionsIncludeLabels: true
   }).run();
-  
+  */
 </script>
