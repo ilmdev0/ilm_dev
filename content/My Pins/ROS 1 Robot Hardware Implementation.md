@@ -70,7 +70,7 @@ publish: true
           'width': 'label',
          'height': 'label',
           'min-width': '120px',
-          'min-height': '60px',
+          'min-height': '120px',
           'text-margin-y': '20px',
          'text-margin-x': '20px',
         'nodeDimensionsIncludeLabels': true,
