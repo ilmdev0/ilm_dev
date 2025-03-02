@@ -34,7 +34,7 @@ publish: true
         data: { 
           id: 'nav2_planner',
           label: 'nav2_planner_server\n/mobile_base_controller/odom',
-          url: '/path/to/nav2_details' 
+          url: 'https://pramanic.fi/My-Pins/Sick-Robot-SLAM-and-Gmapping' 
         },
         position: { x: 200, y: 100 }
       },
@@ -42,7 +42,7 @@ publish: true
         data: {
           id: 'controller',
           label: 'nav2_controller_server\n/local_costmap',
-          url: '/path/to/controller_details'
+          url: 'https://pramanic.fi/My-Pins/Sick-Robot-SLAM-and-Gmapping'
         },
         position: { x: 600, y: 100 }
       },
@@ -63,16 +63,20 @@ publish: true
           'border-color': '#6366f1',
           'border-width': '2px',
           'shape': 'rectangle',
-          'padding': '15px',
-          'line-height': '1.2px',
+          'padding': '10px',
+          'line-height': '1.2',
           'text-max-width': '180px',
           'text-wrap': 'wrap',
-          'width': 'label',
-          'height': 'label',
-          'min-width': '100px',
+        //  'width': 'label',
+        //  'height': 'label',
+          'min-width': '120px',
           'min-height': '60px',
-          'text-margin-y': '10px',
-          'text-margin-x': '10px'
+       //   'text-margin-y': '8px',
+       //   'text-margin-x': '10px'
+       //   'nodeDimensionsIncludeLabels': true
+         'width': 'auto',
+         'height': 'auto'
+       
         }
       },
       {
@@ -106,10 +110,12 @@ publish: true
   });
 
   // Automatically fit nodes to text
+  /*
   cy.nodes().layout({
     name: 'cola',
     fit: true,
     padding: 30,
     nodeDimensionsIncludeLabels: true
   }).run();
+  */
 </script>
