@@ -114,7 +114,7 @@ publish: true
   cy.nodes().layout({
     name: 'cola',
     fit: true,
-    padding: 50,
+    padding: 100,
     nodeDimensionsIncludeLabels: true
   }).run();
   
