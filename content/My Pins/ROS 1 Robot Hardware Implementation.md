@@ -85,7 +85,7 @@ publish: true
           'width': 2,
           'line-color': '#4f46e5',
           'curve-style': 'straight',
-          'target-arrow-shape': 'triangle',
+          'target-arrow-shape': 'circle',
           'target-arrow-color': '#4f46e5',
           'arrow-scale': 1.5
         }
