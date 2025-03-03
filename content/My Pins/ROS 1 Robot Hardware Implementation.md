@@ -58,7 +58,7 @@ publish: true
           'text-halign': 'center',
           'font-family': 'Ubuntu Mono, monospace',
           'font-size': '12px',
-          'color': '#2c3e50',
+          'color': '#9c336e',
           'background-color': '#e0e7ff',
           'border-color': '#6366f1',
           'border-width': '2px',
@@ -83,10 +83,10 @@ publish: true
         selector: 'edge',
         style: {
           'width': 2,
-          'line-color': '#4f46e5',
+          'line-color': '#f58c8c',
           'curve-style': 'straight',
-          'target-arrow-shape': 'circle',
-          'target-arrow-color': '#4f46e5',
+          'target-arrow-shape': 'triangle',
+          'target-arrow-color': '#f55656',
           'arrow-scale': 1.5
         }
       }
