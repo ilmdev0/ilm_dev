@@ -56,7 +56,7 @@ publish: true
       },
       
       // Edges
-      { data: { id: 'e1', source: 'nav2_planner', target: 'controller' } }
+      { data: { id: 'e1', source: 'nav2_planner', target: 'controller' } },
       { data: { id: 'e2', source: 'controller', target: 'gmapping' } }
       
     ],
