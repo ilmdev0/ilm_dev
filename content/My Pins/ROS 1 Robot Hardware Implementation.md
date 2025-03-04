@@ -12,7 +12,10 @@ publish: true
 
 <div id="cy"></div>
 
+<!-- Load Cytoscape -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.23.0/cytoscape.min.js"></script>
+<!-- Load Cola.js layout extension -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape-cola/2.1.0/cytoscape-cola.min.js"></script>
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
@@ -30,7 +33,7 @@ publish: true
     const container = document.getElementById('cy');
     if (!container) return;
 
-    container.innerHTML = ''; // Clear previous graph instance on navigation
+    container.innerHTML = ''; // Clear previous graph instance
 
     const cy = cytoscape({
       container: container,
@@ -93,13 +96,12 @@ publish: true
             'line-height': '1.2',
             'text-max-width': '180px',
             'text-wrap': 'wrap',
-            'width': 'label',
-            'height': 'label',
+            'width': 'auto',  // Fixed deprecated property
+            'height': 'auto', // Fixed deprecated property
             'min-width': '120px',
             'min-height': '120px',
             'text-margin-y': '0px',
-            'text-margin-x': '0px',
-            'nodeDimensionsIncludeLabels': true
+            'text-margin-x': '0px'
           }
         },
         {
@@ -115,8 +117,7 @@ publish: true
         }
       ],
       layout: { 
-        name: 'preset',
-        nodeDimensionsIncludeLabels: true 
+        name: 'preset' // Using 'preset' instead of 'cola' by default
       }
     });
 
@@ -133,19 +134,19 @@ publish: true
       }
     });
 
-    // Automatically fit nodes to text
-    cy.nodes().layout({
+    // Use Cola.js layout (Ensure it's loaded first)
+    cy.layout({
       name: 'cola',
       fit: true,
-      padding: 100,
-      nodeDimensionsIncludeLabels: true
+      padding: 100
     }).run();
   }
 
-// Run the function when the page loads
-document.addEventListener('DOMContentLoaded', initializeGraph);
+  // Run the function when the page loads
+  document.addEventListener('DOMContentLoaded', initializeGraph);
 
-// Run it again when navigating dynamically (Quartz)
-document.addEventListener('astro:page-load', initializeGraph);
-
+  // Run it again when navigating dynamically (Quartz)
+  document.addEventListener('astro:page-load', () => {
+    setTimeout(initializeGraph, 100); // Ensure DOM updates before running
+  });
 </script>
