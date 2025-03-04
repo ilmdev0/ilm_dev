@@ -84,7 +84,7 @@ publish: true
           'font-family': 'Ubuntu Mono, monospace',
           'font-size': '12px',
           'color': '#000000',
-          'background-color': '#b84987',
+          'background-color': '#bd91aa',
           'border-color': '#000000',
           'border-width': '0.5px',
           'shape': 'rectangle',
