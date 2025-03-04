@@ -107,7 +107,7 @@ publish: true
       {
         selector: 'edge',
         style: {
-          'width': 2,
+          'width': 1,
           'line-color': '#f58c8c',
           'curve-style': 'straight',
           'target-arrow-shape': 'triangle',
