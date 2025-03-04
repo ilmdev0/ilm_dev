@@ -83,17 +83,17 @@ publish: true
           'text-halign': 'center',
           'font-family': 'Ubuntu Mono, monospace',
           'font-size': '12px',
-          'color': '#9c336e',
-          'background-color': '#e0e7ff',
-          'border-color': '#6366f1',
-          'border-width': '2px',
+          'color': '#000000',
+          'background-color': '#b84987',
+          'border-color': '#000000',
+          'border-width': '0.5px',
           'shape': 'rectangle',
           'padding': '10px',
           'line-height': '1.2',
           'text-max-width': '180px',
           'text-wrap': 'wrap',
           'width': 'label',
-         'height': 'label',
+          'height': 'label',
           'min-width': '120px',
           'min-height': '120px',
           'text-margin-y': '0px',
@@ -112,7 +112,7 @@ publish: true
           'curve-style': 'straight',
           'target-arrow-shape': 'triangle',
           'target-arrow-color': '#f55656',
-          'arrow-scale': 1.5
+          'arrow-scale': 1
         }
       }
     ],
