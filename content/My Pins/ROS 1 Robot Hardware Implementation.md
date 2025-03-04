@@ -142,9 +142,10 @@ publish: true
     }).run();
   }
 
-  // Run the function when the page loads
-  document.addEventListener("DOMContentLoaded", initializeGraph);
+// Run the function when the page loads
+document.addEventListener('DOMContentLoaded', initializeGraph);
 
-  // Run it again when navigating dynamically (Quartz)
-  document.addEventListener("astro:page-load", initializeGraph);
+// Run it again when navigating dynamically (Quartz)
+document.addEventListener('astro:page-load', initializeGraph);
+
 </script>
