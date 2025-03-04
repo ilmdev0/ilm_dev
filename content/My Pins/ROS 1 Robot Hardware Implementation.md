@@ -49,7 +49,7 @@ publish: true
      {
         data: {
           id: 'gmapping',
-          label: 'Gmapping,
+          label: 'Gmapping',
           url: 'https://pramanic.fi/My-Pins/Sick-Robot-SLAM-and-Gmapping'
         },
         position: { x: 800, y: 100 }
@@ -57,7 +57,7 @@ publish: true
       
       // Edges
       { data: { id: 'e1', source: 'nav2_planner', target: 'controller' } },
-    //  { data: { id: 'e1', source: 'controller', target: 'gmapping' } }
+      { data: { id: 'e1', source: 'controller', target: 'gmapping' } }
       
     ],
 
