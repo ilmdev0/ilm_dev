@@ -9,7 +9,7 @@ draft: false
 # Hey, This is Sajib 🤝
 
 
-I'm an Internet of Things (IoT) student at the [[Savonia University of Applied Sciences]], passionate about [[software]], [[robotics]], and [[AI]].
+I recently graduated from [[Savonia University of Applied Sciences]], where I earned a bachelor’s degree in Internet of Things (IoT). I am passionate about [[software]], [[robotics]], and [[AI]].
 
 - **Currently**, I'm working on a robotics project at the [[University of Eastern Finland]].
 - I interned at [[Holobiont Oy]] during the summer of 2023.
